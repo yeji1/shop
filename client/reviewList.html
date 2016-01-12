@@ -1,0 +1,27 @@
+<template name="reviewList">
+<button id="btnWrite" class="btn">후기작성</button>
+
+    <table class="table table-hover">
+        <thead>
+        <tr>
+            <td>글번호</td>
+            <td>작성자</td>
+            <td>제목</td>
+            <td>삭제</td>
+        </tr>
+        </thead>
+        <tbody>
+
+        {{#each boards}}
+            <tr>
+                <td>{{글번호}}</td>
+                <td>{{작성자}}</td>
+                <td><a href="/boardDetail/{{_id}}">{{제목}}</a></td>
+                <td><button class="btn btn-danger" count="{{글번호}}" id="removeOneItem">x</button></td>
+            </tr>
+        {{/each}}
+        </tbody>
+    </table>
+    <button class="btn btn-info" id="Prev">Prev</button>
+    <button class="btn btn-primary" id="Next">Next</button>
+</template>

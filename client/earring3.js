@@ -1,0 +1,1 @@
+Router.route('/earring3', 'earring3');

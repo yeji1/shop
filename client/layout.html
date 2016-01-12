@@ -1,0 +1,17 @@
+<head>
+    <title>조우쥬얼리</title>
+</head>
+
+<template name="layout">
+    <div id="wrap">
+        {{> header}}
+        {{> nav}}
+        {{> aside}}
+
+        <div id="container">
+            {{> yield}}
+        </div>
+
+        {{> footer}}
+    </div>
+</template>
