@@ -1,4 +1,18 @@
 <template name="review">
 
+    <div class="well">
+        {{#with userObj}}
+            글번호: {{글번호}}<br>
+            작성자: {{작성자}}<br>
+            <article>
+                <header>
+                    제목: {{제목}}<br>
+                </header>
+                <main>
+                    후기: {{후기}}<br>
+                </main>
+            </article>
+        {{/with}}
+    </div>
 
 </template>
