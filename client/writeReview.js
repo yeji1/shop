@@ -22,7 +22,7 @@ Template.writeReview.events({
         //글번호를 알아냅시다. 글번호 === 전체 글 갯수 + 1
         //글번호 max값 + 1로 수정
 
-        Meteor.call('boardWrite', obj, function (err, rslt) {
+        Meteor.call('writeReview', obj, function (err, rslt) {
             if (err) {
                 //실패시 화면에서 해야 할 액션
                 alert(err);
