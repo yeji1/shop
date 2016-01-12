@@ -7,9 +7,9 @@ Template.writeReview.events({
         $('#후기').val('');
     },
     "click #write": function(e, tmpl) {
-        if (!Meteor.user()) {
-            return alert('로그인을 해주세요!!!');
-        }
+       // if (!Meteor.user()) {
+       //     return alert('로그인을 해주세요!!!');
+       // }
         var obj = {};
         //obj.작성자 = Meteor.user().emails[0].address;
         obj.제목 = $('#제목').val();
