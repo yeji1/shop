@@ -1,52 +1,57 @@
 /* CSS declarations go here */
 
 * {
-    font-family:HYGothic, 'Malgun Gothic';
+    font-family: HYGothic, 'Malgun Gothic';
     padding: 0px;
     margin: 0px auto;
 }
-a{
-    text-decoration:none;
-    color:black;
+
+a {
+    text-decoration: none;
+    color: black;
 }
-#wrap{
-    width:900px;
+
+#wrap {
+    width: 900px;
 }
 
 #top {
-    display:inline;
+    display: inline;
     padding: 7px 0 0 0;
-    text-align:center;
-    float:right;
+    text-align: center;
+    float: right;
 }
-#top ul{
+
+#top ul {
     padding: 10px 0;
 }
-#top ul li{
-    display:inline;
-}
-#top ul li a{
-    color:pink;
-    text-decoration:none;
-}
-#top ul li a:hover{
-    text-decoration:none;
-    color:red;
+
+#top ul li {
+    display: inline;
 }
 
+#top ul li a {
+    color: pink;
+    text-decoration: none;
+}
 
+#top ul li a:hover {
+    text-decoration: none;
+    color: red;
+}
 
 #header {
-    clear:both;
-    text-align:center;
+    clear: both;
+    text-align: center;
     margin: 10px;
 }
-#header a{
 
-    color:#d80041;
-    font-size:50px;
+#header a {
+
+    color: #d80041;
+    font-size: 50px;
     letter-spacing: 30px;
-    text-decoration:none;
+    text-decoration: none;
 }
 
 #nav {
@@ -57,50 +62,52 @@ a{
     text-transform: uppercase;
     text-align: left;
 }
-#nav ul{
-    width:auto;
-    list-style:none;
-    padding: 10px ;
+
+#nav ul {
+    width: auto;
+    list-style: none;
+    padding: 10px;
     margin: 0;
     background: #ffffff;
     border-bottom: 3px solid #d9ced2;
     border-radius: 2px;
-    text-align:center;
-    border:1px solid #ece6e8;
+    text-align: center;
+    border: 1px solid #ece6e8;
 
 }
 
-#nav ul li{
-    display:inline-block;
-    *display:inline;
-    margin:0 20px;
-    text-align:center;
+#nav ul li {
+    display: inline-block;
+    *display: inline;
+    margin: 0 20px;
+    text-align: center;
 }
 
-#nav ul li a{
+#nav ul li a {
     text-decoration: none;
-    color:hotpink;
-    border-radius:5px;
-    padding:0 5px;
+    color: hotpink;
+    border-radius: 5px;
+    padding: 0 5px;
     transition: 0.5s;
 }
-#nav ul li a:hover{
+
+#nav ul li a:hover {
 
     text-decoration: none;
-    text-align:center;
-    background-color:pink;
-    color:#d80041;
+    text-align: center;
+    background-color: pink;
+    color: #d80041;
 
 }
 
 #nav ul li:hover ul {
-    visibility:visible;
-    position:absolute;
+    visibility: visible;
+    position: absolute;
 }
 
-#nav ul li ul{
-    display:block;
-    visibility:hidden;
+#nav ul li ul {
+    display: block;
+    visibility: hidden;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -109,80 +116,84 @@ a{
     border-top: 0 none;
     border-bottom: 3px solid #d9ced2;
     background: #ffffff;
-    position:absolute;
-    width:200px;
+    position: absolute;
+    width: 200px;
 
 }
-#nav ul li:hover ul li
-{
-    text-shadow:none;
-    font-size:15px;
+
+#nav ul li:hover ul li {
+    text-shadow: none;
+    font-size: 15px;
     padding: 5px;
-    display:block;
-    letter-spacing:2px;
+    display: block;
+    letter-spacing: 2px;
 }
 
-
-#footer{
-    clear:both;
+#footer {
+    clear: both;
     margin: 0px auto;
-    text-align:center;
-    overflow:hidden;
+    text-align: center;
+    overflow: hidden;
 }
-#as{
-    clear:both;
-    width:100%;
-    height:200px;
+
+#as {
+    clear: both;
+    width: 100%;
+    height: 200px;
     border-top: 1px solid pink;
     border-bottom: 2px solid pink;
 }
-#phonnumber{
-    float:left;
+
+#phonnumber {
+    float: left;
     width: 50%;
     height: 100%;
-    background-color:aliceblue;
-}
-#bancknumber{
-
-    width:50%;
-    height:100%;
-    float:left;
-    background-color:aliceblue;
-}
-#tip{
-    clear:both;
-    float:left;
-}
-#guide{
-    float:right;
-    overflow:hidden;
+    background-color: aliceblue;
 }
 
+#bancknumber {
 
+    width: 50%;
+    height: 100%;
+    float: left;
+    background-color: aliceblue;
+}
 
-#right table{
-    position:fixed;
+#tip {
+    clear: both;
+    float: left;
+}
+
+#guide {
+    float: right;
+    overflow: hidden;
+}
+
+#right table {
+    position: fixed;
     margin: 0px;
-    z-index:1000;
+    z-index: 1000;
     right: 0%;
-    top:5%;
+    top: 35%;
     border-collapse: collapse;
-    text-align:center;
+    text-align: center;
     vertical-align: middle;
 }
-#right tr
-{
-    list-style:none;
+
+#right tr {
+    list-style: none;
 }
-#right td{
+
+#right td {
     border-bottom: 1px solid red;
     font-size: 25px;
     width: 150px;
     height: 30px;
 
 }
-#right a{
-    text-decoration:none;
+
+#right a {
+    text-decoration: none;
     color: black;
 }
 
