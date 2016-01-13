@@ -11,7 +11,7 @@ Template.writeReview.events({
         //     return alert('로그인을 해주세요!!!');
         // }
         var obj = {};
-        //obj.작성자 = Meteor.user().emails[0].address;
+        obj.작성자 = Meteor.user().emails[0].address;
         obj.제목 = $('#제목').val();
         obj.후기 = $('#후기').val();
         if (obj.후기.length <= 0 || obj.제목.length <= 0) {
