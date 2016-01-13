@@ -1,7 +1,7 @@
 /* CSS declarations go here */
 
 * {
-    font-family: HYGothic, 'Malgun Gothic';
+    font-family: HYKANB;
     padding: 0px;
     margin: 0px auto;
 }
@@ -56,7 +56,6 @@ a {
 
 #nav {
     padding: 10px;
-    font-family: "Open Sans", "Helvetica Neue", Helvetica, Arial, Sans-Serif;
     font-size: 20px;
     line-height: 15px;
     text-transform: uppercase;
